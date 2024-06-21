@@ -21,3 +21,35 @@ After training for a specified number of epochs, the model's performance is eval
 ### Prediction
 
 The trained model is capable of making predictions on new images. A demonstration of model prediction on custom images is provided, showing how the model identifies and classifies objects as either a horse or a human.
+
+## Results
+
+### Training Results
+
+- **Training Loss**:
+  - Epoch 1: 0.6656
+  - Epoch 2: 0.5596
+  - Epoch 3: 0.4771
+
+- **Training Accuracy**:
+  - Epoch 1: 56.19%
+  - Epoch 2: 71.69%
+  - Epoch 3: 76.52%
+
+### Test Results
+
+- **Test Loss**:
+  - Epoch 1: 0.5791
+  - Epoch 2: 0.4156
+  - Epoch 3: 0.3709
+
+- **Test Accuracy**:
+  - Epoch 1: 67.58%
+  - Epoch 2: 83.20%
+  - Epoch 3: 87.11%
+
+## Repository Structure
+
+- `README.md`: This file provides an overview of the project.
+- `TinyVgg_with_custom_dataset.ipynb`: Jupyter notebook containing the code for training the model.
+- `saved_models`: Directory where the trained model is saved.
